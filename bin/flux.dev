@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-require('child_process').execSync('npx nodemon scripts/server.js', { stdio: 'inherit' });
+const path = require('path');
+const serverPath = path.resolve(__dirname, '../scripts/server.js');
+require('child_process').execSync(`npx nodemon ${serverPath}`, { stdio: 'inherit' });

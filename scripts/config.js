@@ -1,27 +1,26 @@
-// scripts/config.js
-// Written by a human - DeadAPI
-
-require('dotenv').config(); 
+require('dotenv').config();
 const path = require('path');
 const fs = require('fs');
 
+// Define the configuration with default values
 const config = {
   PORT: process.env.PORT || 3000,
-  DIRECTORY: process.env.DIRECTORY || 'src',
-  FILE: process.env.FILE || 'index.html',
+  DIRECTORY: process.env.DIRECTORY || 'src',  // Default directory for static files
+  FILE: process.env.FILE || 'index.html',     // Default file to serve
   SERVER_NAME: process.env.SERVER_NAME || 'Local Server'
 };
 
-const directoryPath = path.join(__dirname, `../${config.DIRECTORY}`);
+// Resolve paths relative to the user's current working directory
+const directoryPath = path.resolve(process.cwd(), config.DIRECTORY);
 const filePath = path.join(directoryPath, config.FILE);
 
-// Check if world exists
+// Check if the directory exists
 if (!fs.existsSync(directoryPath)) {
-  console.error(`Oops! The directory "${config.DIRECTORY}" seems to have gone missing. Maybe try checking the space-time continuum?`); 
+  console.error(`Oops! The directory "${config.DIRECTORY}" seems to have gone missing. Maybe try checking the space-time continuum?`);
   process.exit(1);
 }
 
-
+// Check if the file exists
 if (!fs.existsSync(filePath)) {
   console.error(`Uh-oh! The file "${config.FILE}" can't be found. Did you misplace it, or is it just shy?`);
   process.exit(1);

@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-require('child_process').execSync('node scripts/server.js', { stdio: 'inherit' });
+const path = require('path');
+const serverPath = path.resolve(__dirname, '../scripts/server.js');
+require('child_process').execSync(`node ${serverPath}`, { stdio: 'inherit' });
