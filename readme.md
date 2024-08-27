@@ -44,14 +44,14 @@ These can be overridden by specifying environment variables when starting the se
 
    - Use the following command to start the server:
 ```bash
-   npm start 
+   flux.dev 
 ```
 
 2. **Run the Server in Production Mode**:
 
    - Use the following command to start the server:
 ```bash
-    npm run start:prod 
+    flux.prod
 ```
 
 

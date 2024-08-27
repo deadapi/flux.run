@@ -2,6 +2,10 @@
   "name": "flux.run",
   "version": "1.0.0",
   "description": "A simple Node.js server designed to serve static files and provide basic error handling for development and testing purposes.",
+  "bin": {
+    "flux.dev": "./bin/flux.dev",
+    "flux.prod": "./bin/flux.prod"
+  },
   "scripts": {
     "start": "nodemon scripts/server.js",
     "start:prod": "node scripts/server.js",
