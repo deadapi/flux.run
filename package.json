@@ -12,7 +12,12 @@
     "static",
     "files",
     "development",
-    "testing"
+    "testing",
+    "middleware",
+    "express",
+    "error-handling",
+    "security",
+    "logging"
   ],
   "author": "deadapi",
   "license": "MIT",

@@ -1,6 +1,6 @@
 # serve-og
 
-A server that serves files and mocks you when things go wrong. Because why not?
+Simple & lightweight.
 
 ## Overview
 
