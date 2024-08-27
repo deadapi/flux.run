@@ -1,0 +1,37 @@
+{
+  "name": "flux.run",
+  "version": "1.0.0",
+  "description": "A simple Node.js server designed to serve static files and provide basic error handling for development and testing purposes.",
+  "scripts": {
+    "start": "nodemon scripts/server.js",
+    "start:prod": "node scripts/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "static",
+    "files",
+    "development",
+    "testing"
+  ],
+  "author": "deadapi",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadapi/flux.run.git"
+  },
+  "homepage": "https://github.com/deadapi/flux.run#readme",
+  "bugs": {
+    "url": "https://github.com/deadapi/flux.run/issues"
+  }
+}
