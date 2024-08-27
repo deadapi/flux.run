@@ -1,10 +1,10 @@
-# flux.run
+# serve-og
 
 A server that serves files and mocks you when things go wrong. Because why not?
 
 ## Overview
 
-`flux.run` is a lightweight Node.js server designed for serving HTML files locally. Ideal for development and testing, this package allows you to quickly set up a local server that serves static HTML files from a specified directory.
+`serve-og` is a lightweight Node.js server designed for serving HTML files locally. Ideal for development and testing, this package allows you to quickly set up a local server that serves static HTML files from a specified directory.
 
 ## Features
 
@@ -23,7 +23,7 @@ Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 
 1. **Install the package**:
 ```bash
-   npm install flux.run
+   npm install serve-og
 ```
    This command will automatically install all dependencies, including `nodemon` for development.
 
@@ -44,14 +44,14 @@ These can be overridden by specifying environment variables when starting the se
 
    - Use the following command to start the server:
 ```bash
-   flux.dev 
+   serve.dev 
 ```
 
 2. **Run the Server in Production Mode**:
 
    - Use the following command to start the server:
 ```bash
-    flux.prod
+    serve.prod
 ```
 
 
@@ -74,7 +74,7 @@ To use environment variables, you can set them inline with the command or create
    SERVER_NAME="My Server" 
 ```
 ```bash
-   flux.dev
+   serve.dev
 ```
 ### Manually Restarting the Server
 
@@ -84,7 +84,7 @@ While nodemon is running, you can manually restart the server by typing `rs` in 
 
 When you run the server with nodemon, you should see output similar to the following:
 ```bash
-- `> flux.run@1.0.0 start`
+- `> serve-og@1.0.0 start`
 - `> nodemon scripts/server.js test sample.html test`
 - `[nodemon] 3.1.4`
 - `[nodemon] to restart at any time, enter rs`

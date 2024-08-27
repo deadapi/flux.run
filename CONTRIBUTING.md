@@ -1,6 +1,6 @@
-# Contributing to flux.run
+# Contributing to serve-og
 
-Thank you for your interest in contributing to flux.run! We appreciate your help in improving this project. Please follow the guidelines below to make your contribution as smooth as possible.
+Thank you for your interest in contributing to serve-og! We appreciate your help in improving this project. Please follow the guidelines below to make your contribution as smooth as possible.
 
 ## How to Contribute
 
@@ -10,11 +10,11 @@ Thank you for your interest in contributing to flux.run! We appreciate your help
 2. **Clone Your Fork**
    - Clone your forked repository to your local machine:
      ```bash
-     git clone https://github.com/deadapi/flux.run.git
+     git clone https://github.com/deadapi/serve-og.git
      ```
    - Navigate into the project directory:
      ```bash
-     cd flux.run
+     cd serve-og
      ```
 
 3. **Set Up the Development Environment**
@@ -70,10 +70,10 @@ We expect everyone to contribute in a respectful and inclusive manner.
 
 ## Reporting Issues
 
-If you encounter any bugs or issues, please report them by opening an [issue](https://github.com/deadapi/flux.run/issues). Provide as much detail as possible, including steps to reproduce the issue.
+If you encounter any bugs or issues, please report them by opening an [issue](https://github.com/deadapi/serve-og/issues). Provide as much detail as possible, including steps to reproduce the issue.
 
 ## Additional Resources
 
-- [Community Discussions](https://github.com/deadapi/flux.run/discussions)
+- [Community Discussions](https://github.com/deadapi/serve-og/discussions)
 
-Thank you for contributing to flux.run! Your efforts help make this project better for everyone.
+Thank you for contributing to serve-og! Your efforts help make this project better for everyone.

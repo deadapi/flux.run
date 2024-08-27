@@ -1,10 +1,10 @@
 {
-  "name": "flux.run",
+  "name": "serve-og",
   "version": "1.0.0",
   "description": "A simple Node.js server designed to serve static files and provide basic error handling for development and testing purposes.",
   "bin": {
-    "flux.dev": "./bin/flux.dev",
-    "flux.prod": "./bin/flux.prod"
+    "serve.dev": "./bin/serve.dev",
+    "serve.prod": "./bin/serve.prod"
   },
   "keywords": [
     "node",
@@ -26,14 +26,14 @@
     "nodemon": "^3.1.4"
   },
   "scripts": {
-  "postinstall": "chmod +x ./bin/flux.dev && chmod +x ./bin/flux.prod"
-},
+    "postinstall": "chmod +x ./bin/serve.dev && chmod +x ./bin/serve.prod"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deadapi/flux.run.git"
+    "url": "git+https://github.com/deadapi/serve-og.git"
   },
-  "homepage": "https://github.com/deadapi/flux.run#readme",
+  "homepage": "https://github.com/deadapi/serve-og#readme",
   "bugs": {
-    "url": "https://github.com/deadapi/flux.run/issues"
+    "url": "https://github.com/deadapi/serve-og/issues"
   }
 }
