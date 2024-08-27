@@ -2,15 +2,15 @@ require('dotenv').config();
 const path = require('path');
 const fs = require('fs');
 
-// Define the configuration with default values
+
 const config = {
   PORT: process.env.PORT || 3000,
-  DIRECTORY: process.env.DIRECTORY || 'src',  // Default directory for static files
-  FILE: process.env.FILE || 'index.html',     // Default file to serve
+  DIRECTORY: process.env.DIRECTORY || 'src',  
+  FILE: process.env.FILE || 'index.html',     
   SERVER_NAME: process.env.SERVER_NAME || 'Local Server'
 };
 
-// Resolve paths relative to the user's current working directory
+// paths relative to the user's current working directory
 const directoryPath = path.resolve(process.cwd(), config.DIRECTORY);
 const filePath = path.join(directoryPath, config.FILE);
 
