@@ -74,7 +74,7 @@ To use environment variables, you can set them inline with the command or create
    SERVER_NAME="My Server" 
 ```
 ```bash
-   npm start
+   flux.dev
 ```
 ### Manually Restarting the Server
 

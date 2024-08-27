@@ -6,11 +6,6 @@
     "flux.dev": "./bin/flux.dev",
     "flux.prod": "./bin/flux.prod"
   },
-  "scripts": {
-    "start": "nodemon scripts/server.js",
-    "start:prod": "node scripts/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "node",
     "server",
